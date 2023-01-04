@@ -1,13 +1,8 @@
 import "./App.css";
-import styled from "styled-components";
 import Nav from "./components/Nav";
 import LoginPage from "./pages/LoginPage";
 import MainPage from "./pages/MainPage";
 import SearchPage from "./pages/SearchPage";
-import Banner from "./components/Banner";
-import Category from "./components/Category";
-import Row from "./components/Row";
-import requests from "./api/requests";
 import { Routes, Route, Outlet } from "react-router-dom";
 import DetailPage from "./pages/DetailPage";
 
